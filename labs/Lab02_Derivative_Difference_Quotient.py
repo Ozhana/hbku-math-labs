@@ -16,3 +16,11 @@ plt.title("Derivative by Difference Quotient: error vs step size")
 plt.xlabel("h")
 plt.ylabel("|approx - true|")
 plt.show()
+
+
+"""
+Lab02_Derivative_Difference_Quotient
+
+Tools: Python, NumPy, Matplotlib
+Author: Dr.Ozhan Akdag
+"""
