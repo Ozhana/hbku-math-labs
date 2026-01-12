@@ -16,3 +16,10 @@ plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.legend()
 plt.show()
+
+"""
+Lab 01 — Limits Visualization
+
+Tools: Python, NumPy, Matplotlib
+Author: Dr.Ozhan Akdag
+"""
