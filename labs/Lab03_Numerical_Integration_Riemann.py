@@ -16,7 +16,7 @@ for n in [10, 50, 200, 1000]:
 print("True integral of sin(x) from 0 to pi is 2.")
 
 """
-Lab 03 Numerical Integration Riemann
+Lab 03 — Numerical Integration Riemann
 
 Tools: Python, NumPy, Matplotlib
 Author: Dr.Ozhan Akdag
