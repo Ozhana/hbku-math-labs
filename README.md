@@ -1,17 +1,24 @@
 # HBKU Mathematics Computational Labs (Python)
 
-This repository contains Python-based computational lab activities designed to support Precalculus, Calculus I and Calculus II learning through visualization, numerical verification, and problem-solving.
+Python-based computational lab materials to support **Precalculus, Calculus I, and Calculus II** through visualization, numerical verification, and structured problem-solving.
 
-## Topics
-- Limits & continuity (visual intuition + numerical checks)
-- Derivatives (difference quotients, tangent line approximation, optimization)
-- Integration (Riemann sums, numerical integration, accumulation)
-- Sequences & series (optional extension)
-- Scientific computing examples (applied mathematics / modeling)
+## Contents
+- **Lab 01:** Limits & continuity (visual intuition + removable discontinuities)
+- **Lab 02:** Derivatives (difference quotient + error behavior)
+- **Lab 03:** Integration (Riemann sums + numerical approximation)
+
+## How to run (Windows)
+1. Install Python 3.10+ from python.org (check “Add Python to PATH”)
+2. Open PowerShell in this folder
+3. Run:
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\activate
+   pip install -r requirements.txt
+   python labs/Lab01_Limits_Visualization.py
 
 ## Tools
-Python, NumPy, Matplotlib (and optional: SciPy, SymPy)
+Python, NumPy, Matplotlib (optional: SciPy, SymPy)
 
-## About me
-Ph.D. in Mathematics. Instructor with experience in international curricula and computational teaching.
-Doha, Qatar.
+## Author
+Ozhan Akdag — PhD in Mathematics | Doha, Qatar
