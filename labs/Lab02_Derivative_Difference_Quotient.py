@@ -19,7 +19,7 @@ plt.show()
 
 
 """
-Lab02_Derivative_Difference_Quotient
+Lab 02 — Derivative Difference Quotient
 
 Tools: Python, NumPy, Matplotlib
 Author: Dr.Ozhan Akdag
