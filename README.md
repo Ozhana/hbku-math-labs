@@ -1,78 +1,65 @@
-# HBKU Mathematics Computational Labs (Python)
+# 🔢 HBKU Computational Mathematics Labs
+> **A Comprehensive Python-Based Laboratory for Numerical Analysis, Calculus, and Scientific Modeling**
 
-This repository contains **Python-based computational lab materials** designed to support:
-- **Precalculus**
-- **Calculus I**
-- **Calculus II**
-
-The focus is on visualization, numerical verification, and structured problem-solving using scientific Python tools.
+Welcome to the **HBKU Mathematics Computational Labs**. This repository is a sophisticated bridge between abstract mathematical theory and practical computational verification. Designed for **Calculus I-II**, **Precalculus**, and **Scientific Computing**, it leverages the Power of Python to visualize and solve complex mathematical structures.
 
 ---
 
-## Lab topics (folders)
+## 🔬 Core Laboratory Domains
 
-### 1) Limits & Continuity
-Path: `labs/limits-continuity/`
+### 1. Limits & Continuity | `labs/limits-continuity/`
+*Exploring the behavior of functions at the edge.*
+- **Numerical Intuition:** Left-hand and right-hand limit verifications.
+- **Visual Analysis:** Modeling jump and removable discontinuities.
+- **Mathematical Rigor:** Precision checks for $\epsilon - \delta$ limit definitions.
 
-Typical activities:
-- Visual intuition for limits (removable/jump behavior)
-- Numerical limit checks (left/right approaches)
-- Continuity testing with graphs + computations
+### 2. Differential Calculus | `labs/derivatives/`
+*The mathematics of change and optimization.*
+- **Approximations:** Difference quotient modeling and error rate analysis.
+- **Optimization:** Solving extrema problems through numerical and visual gradients.
+- **Tangent Dynamics:** Linear approximation and convergence behavior.
 
-### 2) Derivatives
-Path: `labs/derivatives/`
+### 3. Integral Calculus | `labs/integration/`
+*Accumulation and the geometry of continuous data.*
+- **Riemann Sums:** Comparisons of Left, Right, and Midpoint approximations.
+- **Numerical Quadrature:** Implementing Trapezoidal and Simpson-style integration methods.
+- **Fundamental Theorem:** Visualizing the relationship between accumulation and differentiation.
 
-Typical activities:
-- Difference quotient approximations
-- Tangent line approximation and error behavior
-- Optimization using derivatives (numerical + visual)
+### 4. Sequences & Series | `labs/sequences-series/`
+*Convergence, divergence, and series expansion.*
+- **Taylor Series:** Modeling function approximations: $f(x) \approx \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$
+- **Partial Sums:** Visualizing the rate of convergence for infinite series.
 
-### 3) Integration
-Path: `labs/integration/`
-
-Typical activities:
-- Riemann sums (left/right/midpoint)
-- Numerical integration (trapezoid/Simpson-style comparisons)
-- Accumulation and area interpretation
-
-### 4) Sequences & Series (Extension)
-Path: `labs/sequences-series/`
-
-Typical activities:
-- Partial sums and convergence behavior
-- Taylor series approximation (visual comparison)
-
-### 5) Scientific Computing & Modeling
-Path: `labs/scientific-computing-modeling/`
-
-Typical activities:
-- Simple ODE modeling (Euler vs RK-style methods)
-- Applied numerical simulations (e.g., diffusion/heat-style models)
-
-
-## Tools
-Python, NumPy, Matplotlib (optional: SciPy, SymPy)
-
-## Author
-Ozhan Akdag — PhD in Mathematics | Doha, Qatar
+### 5. Scientific Computing & Modeling | `labs/scientific-computing-modeling/`
+*Applied numerical methods for real-world phenomena.*
+- **Differential Equations:** Modeling system dynamics using Euler and Runge-Kutta (RK) methods.
+- **Physical Simulations:** Numerical modeling of diffusion and heat transfer patterns.
 
 ---
 
-## Quick start (Windows)
+## 🛠️ Technological Stack
+* **Language:** Python 3.10+
+* **Libraries:** `NumPy` (Vectorized computations), `Matplotlib` (High-fidelity visualization), `SciPy` (Scientific algorithms), `SymPy` (Symbolic mathematics).
 
-1) Install **Python 3.10+** (from python.org)  
-   ✅ during installation: check **“Add Python to PATH”**
+---
 
-2) Open PowerShell in the repository folder and run:
+## 🚀 Quick Start (Installation & Setup)
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install -r requirements.txt
+1. **Install Python:** Ensure Python 3.10+ is installed and added to your **PATH**.
+2. **Setup Virtual Environment:**
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\activate
+
+3. Install Dependencies:
+   ```powershell
+   pip install -r requirements.txt
 
 
-## Tools
-Python, NumPy, Matplotlib (optional: SciPy, SymPy)
+## 👨‍🏫 About the Author: Dr. Ozhan Akdag
+---
+- Doctorate (Ph.D.) in Mathematics & Education.
+- Current Location: Doha, Qatar.
+- Specialization: Pure & Applied Mathematics, Statistical Modeling, and STEM Education.
 
-## Author
-Ozhan Akdag — PhD in Mathematics | Doha, Qatar
+"Mathematics is not just about solving for x; it's about understanding why x matters."
