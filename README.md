@@ -57,7 +57,6 @@ Welcome to the **HBKU Mathematics Computational Labs**. This repository is a sop
 
 
 ## 👨‍🏫 About the Author: Dr. Ozhan Akdag
----
 - Doctorate (Ph.D.) in Mathematics & Education.
 - Current Location: Doha, Qatar.
 - Specialization: Pure & Applied Mathematics, Statistical Modeling, and STEM Education.
