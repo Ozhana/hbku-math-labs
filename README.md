@@ -37,6 +37,20 @@ Welcome to the **HBKU Mathematics Computational Labs**. This repository is a sop
 
 ---
 
+### 🔬 Scientific Case Study: Numerical Integration Benchmark
+To demonstrate the lab's computational capabilities, here is a visualization of a numerical integration analysis using the **Trapezoidal Rule** versus the **Exact Integral**.
+
+<p align="center">
+  <img src="assets/integration_demo.png" width="600px" alt="Integration Analysis" />
+</p>
+
+**Analysis Highlights:**
+* **Function:** $f(x) = \sin^2(x) + x \cdot \cos(x)$
+* **Methodology:** Utilizing `NumPy` for vectorized domain generation and `Matplotlib` for high-fidelity area visualization.
+* **Objective:** This simulation verifies the convergence of numerical approximations in non-trivial oscillating functions.
+
+---
+
 ## 🛠️ Technological Stack
 * **Language:** Python 3.10+
 * **Libraries:** `NumPy` (Vectorized computations), `Matplotlib` (High-fidelity visualization), `SciPy` (Scientific algorithms), `SymPy` (Symbolic mathematics).
